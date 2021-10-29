@@ -1,0 +1,81 @@
+.html {
+    font-size: 28px !important;
+    line-height: 1.75 !important;
+}
+
+input {
+    border: none !important;
+    margin: 0 !important;
+    text-align: center;
+}
+
+td, tr, th {
+    text-align: center !important;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.btn.myRed {
+    background-color: red !important;
+}
+
+.btn.myRed:hover {
+    background-color: crimson !important;
+}
+
+.btn {
+    background-color: rgb(40, 163, 212) !important;
+}
+
+.btn:hover {
+    background-color: blueviolet !important;
+}
+
+.gold {
+    background-color: #FFD700;
+}
+
+.silver {
+    background-color: #A9A9A9;
+}
+
+.bronze {
+    background-color: #cc6633;
+}
+
+.btn.edit {
+    background-color: whitesmoke !important;
+    color: black !important;
+}
+
+.container.users {
+    width: 90% !important;
+}
+
+.searchName {
+    width: 20% !important;
+    border-bottom: 1px solid !important;
+}
+
+.searchName:focus {
+    box-shadow: none !important;
+}
+
+.searchName::placeholder {
+    color: black !important;
+}
+
+.searchName1 {
+    width: 20% !important;
+    border-bottom: 1px solid !important;
+}
+
+.searchName1:focus {
+    box-shadow: none !important;
+}
+
+.searchName1::placeholder {
+    color: black !important;
+}
