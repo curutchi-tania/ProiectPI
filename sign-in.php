@@ -1,7 +1,7 @@
 <?php 
     
     //connect to database
-    $conn = mysqli_connect("localhost", "taniacurutchi", "parola123", "music_competition");
+    $conn = mysqli_connect("localhost", "tania", "parola123", "music_competition");
 
     //check the connection
     if (!$conn){

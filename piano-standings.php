@@ -5,7 +5,7 @@
         header("Location: HTTP/1.1 403 Forbidden");
     }
 
-    $conn = mysqli_connect("localhost", "taniacurutchi", "parola123", "music_competition");
+    $conn = mysqli_connect("localhost", "tania", "parola123", "music_competition");
 
     if (!$conn){
         echo "Connection error:<br>" . mysqli_connect_error();

@@ -4,7 +4,7 @@
     if ($_SESSION["email"] != "Admin"){
         header("Location: HTTP/1.1 404 Forbidden");
     }
-    $conn = mysqli_connect("localhost", "taniacurutchi", "parola123" , "music_competition");
+    $conn = mysqli_connect("localhost", "tania", "parola123" , "music_competition");
 
     if (!$conn){
         echo "Connection error: " . mysqli_connect_error();

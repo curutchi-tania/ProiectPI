@@ -1,7 +1,7 @@
 <?php
 
     //connect to the database
-    $conn = mysqli_connect("localhost", "taniacurutchi", "parola123", "music_competition");
+    $conn = mysqli_connect("localhost", "tania", "parola123", "music_competition");
 
     //check the connection
     if (!$conn){
@@ -108,8 +108,8 @@
 
             //write query for the database
             $sql = "
-                INSERT INTO contestants(FirstName, LastName, Email, Password, Age, PhoneNumber, Instrument)
-                VALUES('$firstName', '$lastName', '$email', '$hash', '$age', '$phoneNumber', '$instrument')
+                INSERT INTO contestants(FirstName, LastName, Email, Password, Age, PhoneNumber, Instrument, FinalScore)
+                VALUES('$firstName', '$lastName', '$email', '$hash', '$age', '$phoneNumber', '$instrument', 0)
             ";
             
             if (!mysqli_query($conn, $sql)){
